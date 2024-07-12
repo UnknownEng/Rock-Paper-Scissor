@@ -1,0 +1,103 @@
+*{
+     margin: 0;   /*not made by me */
+    padding: 0;
+}   
+    body 
+{
+    background-color: whitesmoke;
+}
+
+.Heading 
+{
+    background-color: rgb(92, 0, 150);
+    color: white;
+    height : 60px;
+    text-align: center;
+    line-height: 60px;  /*vertical alligmnet*/
+}
+
+.images
+{
+    display: flex; /*in one line*/
+    align-items: center; /*at centre of image*/
+    justify-content: center; /*at centre of page*/
+    text-wrap: wrap;
+    margin-top: 50px;
+    display: flex;
+    object-fit: cover;  /* for making image clear and in same ratio as before*/
+    gap: 60px;
+}
+
+.rock
+{
+    align-items: center;
+    justify-content: center;
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+}
+
+.paper
+{
+    align-items: center;
+    justify-content: center;
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+}
+
+.scissor
+{
+    align-items: center;
+    justify-content: center;
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;;
+}
+
+.score
+{
+    display: flex;
+    justify-content: center;
+    gap: 250px;
+    font-size: 40px;
+    font-weight: 1000;
+    font-style: normal;
+    margin-top: 50px;
+}
+
+
+.player_name
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-style: normal;
+    gap: 20px;
+    font-size: xx-large;
+    font-weight: 1000;
+    margin-top: 0.9rem;
+}
+.computer
+{
+    margin-left: 150px;
+}
+
+
+.result
+{
+    justify-content: center;
+    text-align: center;
+    font-size: 3.9ex; 
+    margin-top: 100px;
+    padding: 30px;
+    border-radius: 2000px;
+}
+
+.rslt {
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+    font-weight: 1000;
+    display: inline;
+}
